@@ -34,3 +34,7 @@ h2 {
     bottom: 0;
     z-index: -1;
 }
+.human {
+    position: fixed;
+    left: 5;
+}
