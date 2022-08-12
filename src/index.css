@@ -30,11 +30,12 @@ h2 {
 }
 .organic {
     position: fixed;
-    left: 0;
+    left: -60px;
     bottom: 0;
     z-index: -1;
 }
 .human {
     position: fixed;
-    left: 5;
+    left: 60px;
+    bottom: 10px;
 }
