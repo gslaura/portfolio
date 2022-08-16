@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #FFE500;
     font-family: 'signika negative';
@@ -7,38 +11,21 @@ span {
 }
 h1 {
     font-size: 40px;
-    position: fixed;
-    left: 170px;
-    top: 20px;
-    color: #E81C16;
+    color: #7C1915;
 }
 h2 {
     font-size: 25px;
-    position: fixed;
-    left: 100px;
-    top: 100px;
-    color: #021F49;
 }
-h3 {
+p {
     font-size: 20px;
-    position: fixed;
-    left: 100px;
-    top: 160px;
+    font-weight: 500;
+}
+.night-blue {
     color: #021F49;
 }
-h4 {
-    font-size: 20px;
-    position: fixed;
-    left: 100px;
-    top: 210px;
-    color: #021F49;
-}
-h5{
-    font-size: 16px;
-    position: fixed;
-    left: 100px;
-    top: 285px;
-    color: #0047B1;
+
+.link{
+    color: #7C1915;
 }
 
 .tela-do-app {
@@ -56,7 +43,8 @@ h5{
     justify-content: space-between;
 }
 .contextualizacao {
-    margin-left: 30px;
+    width: 60%;
+    padding-left: 50px;
 }
 .organic {
     position: fixed;
@@ -74,4 +62,14 @@ h5{
     position: fixed;
     left: 60px;
     bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+.human {
+    display: none;
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+}
 }
