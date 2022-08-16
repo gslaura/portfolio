@@ -6,11 +6,41 @@ span {
     font-size: 23px;
 }
 h1 {
-    color: #0047B1;
+    font-size: 40px;
+    position: fixed;
+    left: 170px;
+    top: 20px;
+    color: #E81C16;
 }
 h2 {
-    color: #7C1915;
+    font-size: 25px;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+    color: #021F49;
 }
+h3 {
+    font-size: 20px;
+    position: fixed;
+    left: 100px;
+    top: 160px;
+    color: #021F49;
+}
+h4 {
+    font-size: 20px;
+    position: fixed;
+    left: 100px;
+    top: 210px;
+    color: #021F49;
+}
+h5{
+    font-size: 16px;
+    position: fixed;
+    left: 100px;
+    top: 285px;
+    color: #0047B1;
+}
+
 .tela-do-app {
     border: none;
     background-color: #0047B1;
@@ -30,9 +60,15 @@ h2 {
 }
 .organic {
     position: fixed;
+    z-index: -1;
+}
+.bigorganic {
+    right: 0;
+    top: 0;
+}
+.smallorganic {
     left: -60px;
     bottom: 0;
-    z-index: -1;
 }
 .human {
     position: fixed;
